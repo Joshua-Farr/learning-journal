@@ -132,7 +132,8 @@ h1{
 }
 
 
-.hero-txt p{
+.hero-txt p,
+.blog-post p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.25;
@@ -145,9 +146,6 @@ h1{
     margin-bottom: 5px;
 }
 
-.blog-post{
-  margin-top: 1.5em;
-}
 
 .date{
     font-size: .88rem;
@@ -178,9 +176,32 @@ button{
 
 }
 
+.blog-post-single{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.blog-post-single p{
+  margin-top: 1em;
+}
+
+.blog-post-img{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.blog-post-date{
+  font-size: .75rem;
+  margin-bottom: 1em;
+}
 
 
-
+.recent-posts{
+  text-align: center;
+  margin-top: 3em;
+  font-size: 1rem;
+  font-weight: 700;
+}
 
 
 
